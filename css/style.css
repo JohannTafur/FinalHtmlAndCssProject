@@ -1,6 +1,12 @@
 /*
 styles in general 
 */
+html {
+    background-image: url('../images/fondo\ 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px);
+  }
 
 header,
 body {
