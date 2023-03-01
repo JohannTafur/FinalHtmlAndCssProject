@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: black;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(112, 112, 112);
+}
+
+#border {
+    border-bottom: 1px solid rgb(112, 112, 112);
+}
+
+.gif img {
+    display: block;
+    margin: auto;
+}
+
+.consoles ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgb(112, 112, 112);
+}
+
+.consoles ul li {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.consoles ul li h2 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.textCategory{
+    margin: 36px;
+}
+
+body div h1 {
+    color: white;
+    float: left;
+    margin-left: 100px;
+}
+
+body div p {
+    color: white;
+    float: right;
+    margin-right: 100px;
+}
+
+
+.categories ul {
+    list-style: none;
+
+}
+
+.categories {
+    margin-top: 150px;
+    margin-left: 35px ;
+}
+
+.categories ul li {
+    border-radius: 10px rgb(112, 112, 112);
+    display: inline-block;
+    margin-right: 8px;
+    margin-left: 8px;
+
+}
+
+.categories ul li a {
+    text-decoration: none;
+    margin: 1px;
+    color: rgb(112, 112, 112);
+
+}
