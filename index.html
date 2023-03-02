@@ -1,47 +1,52 @@
 <!DOCTYPE html>
 
-    <head>
-        <link rel="stylesheet" href="./css/styleIndex.css">
-        <title>Game category</title>
-    </head>
+<head>
+    <link rel="stylesheet" href="./css/styleIndex.css">
+    <title>Game category</title>
+</head>
 
-    <header>
-        <div id="border">
-            <nav>
-                <ul>
-                    <li><a href="./html/aboutMe.html" target="_blank">AboutMe</a></li>
-                    <li><a href="./html/contact.html" target="_blank">Contact</a></li>
-                    <li><a href="" target="_blank">Menu 3</a></li>
-                </ul>
-            </nav>
-        </div>
-
-        <div>
-            <div class="gif">
-                <img src="./video/giphy.gif" alt="">
-            </div>
-        </div>
-
-        <div class="consoles">
+<header>
+    <div class="menu">
+        <nav>
             <ul>
-                <li> <h2>PlayStation</h2> </li>
-                <li> <h2>Xbox</h2> </li>
-                <li> <h2>Nintendo</h2> </li>
-                <li> <h2>Wii</h2> </li>
-                <li> <h2>Atari</h2> </li>
+                <li><a href="./html/aboutMe.html" target="_blank">AboutMe</a></li>
+                <li><a href="./html/contact.html" target="_blank">Contact</a></li>
+                <li><a href="" target="_blank">Menu 3</a></li>
             </ul>
-        </div>
-    </header>
+        </nav>
+    </div>
 
-    <body>
+    <div>
+        <div class="gif">
+            <img src="./video/giphy.gif" alt="">
+        </div>
+    </div>
+
+    <div class="consoles">
+        <div>
+            <h2>PlayStation</h2>
+        </div>
+        <div>
+            <h2>Xbox</h2>
+        </div>
+        <div>
+            <h2>Nintendo</h2>
+        </div>
+        <div>
+            <h2>Wii</h2>
+        </div>
+        <div>
+            <h2>Atari</h2>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div class="category">
         <div class="textCategory">
             <h1>video game category</h1>
-            <p>
-                In this section you will be able to see the different categories with their respective games and a brief
-                description
-            </p>
         </div>
-        <div class="categories">
+        <div class="categories menu">
             <ul>
                 <li> <a href="#actio">Action</a> </li>
                 <li> <a href="#arcade">Arcade</a> </li>
@@ -50,18 +55,21 @@
                 <li> <a href="#simulation">Simulation</a> </li>
             </ul>
         </div>
+    </div>    
 
-        <section class="content" id="action">
-            <h1>Action games</h1>
-            <p>
-                <b>Description: </b>hese games focus on action and the player's ability to overcome obstacles and
-                enemies in a virtual world. They usually include combat, platforms and shooting.
-            </p>
+    <section class="content" id="action">
+        <h1>Action games</h1>
+        <p>
+            <b>Description: </b>hese games focus on action and the player's ability to overcome obstacles and
+            enemies in a virtual world. They usually include combat, platforms and shooting.
+        </p>
 
-            <h2>Content</h2>
+        <h2>Content</h2>
 
+        <div class="contentCard">
             <div id="ragnarok" class="card">
                 <img src="./images/God of War Ragnarok.jpg" alt="God of War: Ragnarok">
+                
                 <div class="cardInfo">
                     <h3>God of War: Ragnarok</h3>
                     <details>
@@ -108,18 +116,20 @@
                     </details>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="content" id="arcade">
-            <h1>Arcade</h1>
-            <p>
-                <b>Description: </b>Adventure games tend to be more narrative-driven and focused on exploration and
-                puzzle solving. They often have open worlds and a large number of non-playable characters (NPCs)
-                to interact with.
-            </p>
+    <section class="content" id="arcade">
+        <h1>Arcade</h1>
+        <p>
+            <b>Description: </b>Adventure games tend to be more narrative-driven and focused on exploration and
+            puzzle solving. They often have open worlds and a large number of non-playable characters (NPCs)
+            to interact with.
+        </p>
 
-            <h2>Content</h2>
+        <h2>Content</h2>
 
+        <div class="contentCard">
             <div class="card" id="tcp">
                 <img src="./images/The Callisto Protocol.jpg" alt="The Callisto Protocol">
                 <div class="cardInfo">
@@ -170,18 +180,20 @@
                     </details>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="content" id="sports">
-            <h1>Sports</h1>
-            <p>
-                <b>Description: </b>These games simulate sports such as soccer, basketball, American football, tennis,
-                among others. Players can control teams or individuals and play matches or tournaments against other
-                players or the computer.
-            </p>
+    <section class="content" id="sports">
+        <h1>Sports</h1>
+        <p>
+            <b>Description: </b>These games simulate sports such as soccer, basketball, American football, tennis,
+            among others. Players can control teams or individuals and play matches or tournaments against other
+            players or the computer.
+        </p>
 
-            <h2>Content</h2>
+        <h2>Content</h2>
 
+        <div class="contentCard">
             <div class="card" id="fifa">
                 <img src="./images/FIFA 23.jpg" alt="FIFA 23">
                 <div class="cardInfo">
@@ -231,19 +243,20 @@
                     </details>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
+    <section class="content" id="strategy">
+        <h1>Strategy</h1>
+        <p>
+            <b>Description: </b>Strategy games emphasize planning and decision-making to achieve a specific goal,
+            such as conquering territory or building a civilization. They can be real-time strategy (RTS)
+            or turn-based.
+        </p>
 
-        <section class="content" id="strategy">
-            <h1>Strategy</h1>
-            <p>
-                <b>Description: </b>Strategy games emphasize planning and decision-making to achieve a specific goal,
-                such as conquering territory or building a civilization. They can be real-time strategy (RTS)
-                or turn-based.
-            </p>
+        <h2>Content</h2>
 
-            <h2>Content</h2>
-
+        <div class="contentCard">
             <div class="card" id="mario">
                 <img src="./images/Mario + Rabbids Sparks of Hope.jpg" alt="Mario + Rabbids Sparks of Hope">
                 <div class="cardInfo">
@@ -298,18 +311,20 @@
                     </details>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="content" id="simulation">
-            <h1>Simulation</h1>
-            <p>
-                <b>Description: </b>Simulation games are those that simulate real life situations such as driving a
-                car, flying a plane, running a business, etc. Players can experience situations that they normally
-                wouldn't have access to in real life.
-            </p>
+    <section class="content" id="simulation">
+        <h1>Simulation</h1>
+        <p>
+            <b>Description: </b>Simulation games are those that simulate real life situations such as driving a
+            car, flying a plane, running a business, etc. Players can experience situations that they normally
+            wouldn't have access to in real life.
+        </p>
 
-            <h2>Content</h2>
+        <h2>Content</h2>
 
+        <div class="contentCard">
             <div class="card" id="crossing">
                 <img src="./images/Animal Crossing.jpg" alt="Animal Crossing">
                 <div class="cardInfo">
@@ -322,7 +337,6 @@
                         </p>
                     </details>
                 </div>
-<<<<<<< HEAD
             </div>
 
             <div class="card" id="sbz">
@@ -353,15 +367,8 @@
                     </details>
                 </div>
             </div>
-        </section>
-    </body>
-=======
-            </ul>
         </div>
     </section>
 </body>
--->
-
->>>>>>> featureD
 
 </html>
