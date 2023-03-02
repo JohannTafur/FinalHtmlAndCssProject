@@ -7,40 +7,67 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
-body div h1 {
+h1,
+h2,
+h3,
+p {
     color: white;
-    float: left;
-    margin-left: 100px;
 }
 
-body div p {
-    color: white;
-    float: right;
-    margin-right: 100px;
+/*
+Start menu styles
+*/
+
+nav{
+    
 }
 
 nav ul {
     text-align: center;
-    list-style: none;
     padding: 0;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 nav ul li {
-    display: inline-block;
-    margin-right: 30px;
-    margin-left: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li a {
     text-decoration: none;
     margin: 20px;
-    color: rgb(112, 112, 112);
+    color: rgb(163, 163, 163);
 }
 
-#border {
-    border-bottom: 1px solid rgb(112, 112, 112);
+.menu ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 0px;
+    padding: 12px;
+    border: solid 1px rgb(163, 163, 163);
+    border-radius: 5px;
+}
+
+header div {
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+/*
+effects of the menus and the see more
+*/
+
+.menu li:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+summary:hover {
+    color: blueviolet;
+}
+
+.menu a:hover {
+    color: white;
 }
 
 .gif img {
@@ -48,77 +75,66 @@ nav ul li a {
     margin: auto;
 }
 
-.consoles ul {
-    list-style: none;
-    text-align: center;
-    background-color: rgb(112, 112, 112);
+.consoles {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(163, 163, 163);
+    padding: 20px;
 }
 
-.consoles ul li {
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 50px;
-}
+/*
+Category styles
+*/
 
-.consoles ul li h2 {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-.textCategory {
-    margin: 36px;
+.category {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .categories ul {
     list-style: none;
 }
 
-.categories {
-    margin-top: 150px;
-    margin-left: 0px;
-}
-
-.categories ul li {
-    display: inline-block;
-    margin-right: 10px;
-    margin-left: 0px;
-    padding: 12px;
-    border: solid 1px rgb(112, 112, 112);
-    border-radius: 5px;
-
-}
-
 .categories ul li a {
     text-decoration: none;
     margin: 1px;
-    color: rgb(112, 112, 112);
+    color: rgb(163, 163, 163);
 }
 
 .content {
     color: white;
     margin: 45px;
+    align-items: stretch;
 }
 
 .content h2 {
+    float: left;
     margin-top: 15px;
 }
 
+/*
+Style Card
+*/
+
+.contentCard {
+    display: flex;
+    clear: left;
+    justify-content: center;
+}
+
 .card {
-    display: inline-block;
-    width: 300px;
+    width: 350px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 20px;
-    margin-right: 35px;    
+    margin-right: 35px;
     overflow: hidden;
 }
 
 .card img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 .cardInfo {
@@ -126,7 +142,7 @@ nav ul li a {
 }
 
 .cardInfo h3 {
-    margin-top: 1090;
+    margin-top: 90;
     font-size: 21px;
 }
 
