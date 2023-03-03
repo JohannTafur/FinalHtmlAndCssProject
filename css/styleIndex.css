@@ -1,3 +1,7 @@
+/*
+General styles
+*/
+
 * {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
@@ -10,17 +14,15 @@ body {
 h1,
 h2,
 h3,
-p {
+p,
+summary,
+.menu a:hover {
     color: white;
 }
 
 /*
 Start menu styles
 */
-
-nav{
-    
-}
 
 nav ul {
     text-align: center;
@@ -44,7 +46,7 @@ nav ul li a {
     display: inline-block;
     margin-right: 10px;
     margin-left: 0px;
-    padding: 12px;
+    padding: 15px;
     border: solid 1px rgb(163, 163, 163);
     border-radius: 5px;
 }
@@ -57,29 +59,43 @@ header div {
 effects of the menus and the see more
 */
 
-.menu li:hover {
+li:hover {
     background-color: blueviolet;
-    color: white;
 }
 
 summary:hover {
     color: blueviolet;
 }
 
-.menu a:hover {
-    color: white;
-}
+/*
+gif video styles
+*/
 
 .gif img {
     display: block;
     margin: auto;
 }
 
+/*
+console text styles
+*/
 .consoles {
     display: flex;
     justify-content: space-around;
     background-color: rgb(163, 163, 163);
-    padding: 20px;
+    padding: 33px;
+}
+
+.play h2 {
+    color: blue;
+}
+
+.xbox h2 {
+    color: green;
+}
+
+.ninte h2 {
+    color: red;
 }
 
 /*
@@ -87,14 +103,9 @@ Category styles
 */
 
 .category {
-    margin-top: 30px;
+    margin: 80px 0px;
     display: flex;
     justify-content: center;
-    
-}
-
-.categories ul {
-    list-style: none;
 }
 
 .categories ul li a {
@@ -103,14 +114,15 @@ Category styles
     color: rgb(163, 163, 163);
 }
 
+/*
+Style content
+*/
 .content {
-    color: white;
-    margin: 45px;
-    align-items: stretch;
+    margin: 25px 200px;
+
 }
 
 .content h2 {
-    float: left;
     margin-top: 15px;
 }
 
@@ -121,15 +133,14 @@ Style Card
 .contentCard {
     display: flex;
     clear: left;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .card {
-    width: 350px;
+    width: 325px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    margin-top: 20px;
-    margin-right: 35px;
+    margin: 20px 10px;
     overflow: hidden;
 }
 
@@ -149,4 +160,31 @@ Style Card
 .cardInfo p {
     font-size: 16px;
     line-height: 1.5;
+}
+
+/*
+Style Footer
+*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 55px;
+    border-top: 1px solid rgb(163, 163, 163);
+    padding: 40px;
+}
+
+.info {
+    display: inline-flex;
+    align-items: center;
+}
+
+.i {
+    width: 10%;
+    margin: 20px;
+}
+
+.link {
+    width: 10%;
 }
