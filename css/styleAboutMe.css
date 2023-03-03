@@ -1,0 +1,98 @@
+/*
+General styles
+*/
+
+* {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+
+    background-color: rgb(0, 0, 0);
+}
+
+h1,
+p,
+ul,
+a,
+a:hover {
+    color: white;
+}
+
+/*
+Start menu styles
+*/
+nav {
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+nav ul {
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 15px;
+    border: solid 1px rgb(163, 163, 163);
+    border-radius: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(163, 163, 163);
+}
+
+/*
+effects menus
+*/
+
+li:hover {
+    background-color: blueviolet;
+}
+
+/*
+Style body
+*/
+
+.info {
+    display: inline-flex;
+    margin: 25px;
+}
+
+.i {
+    display: flex;
+    width: 15%;
+    height: 20%;
+    margin: 20px;
+}
+
+div {
+    margin: 20px 40px 20px 20px;
+}
+
+.links {
+    text-align: center;
+}
+
+div a {
+    text-decoration: none;
+}
+
+#email:hover {
+    color: blueviolet;
+}
+
+
+.links a img {
+    text-decoration: none;
+    margin: 0px 30px;
+    align-items: center;
+    width: 8%;
+}
