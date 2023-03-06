@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+label,
+a:hover,
+input[type="submit"]:hover {
+    color: white;
+}
+
+/*
+Start menu styles
+*/
+nav {
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+nav ul {
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 15px;
+    border: solid 1px rgb(163, 163, 163);
+    border-radius: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(163, 163, 163);
+}
+
+/*
+effects menus and input
+*/
+
+li:hover,
+input[type="submit"]:hover {
+    background-color: rgb(138, 43, 226);
+}
+
+body div {
+    margin: 2% 33%;
+    border: solid 1px rgb(138, 43, 226);
+}
+
+/*
+style form
+*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: rgb(163, 163, 163);
+}
+
+input[type="email"],
+input[type="tel"],
+input[type="text"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[name="Observations"] {
+    padding: 50px;
+}
+
+input[type="submit"] {
+    margin-top: 0px 20px;
+    padding: 10px;
+    border: 1px solid rgb(163, 163, 163);
+    background-color: #000000;
+    color: rgb(163, 163, 163);
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}

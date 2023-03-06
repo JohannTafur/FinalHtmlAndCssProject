@@ -1,0 +1,98 @@
+/*
+General styles
+*/
+
+* {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h1,
+h2,
+li,
+a:hover {
+    color: white;
+}
+
+header {
+    border-bottom: solid 1px rgb(163, 163, 163);
+}
+
+/*
+Start menu styles
+*/
+
+nav ul {
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 0px;
+    padding: 15px;
+    border: solid 1px rgb(163, 163, 163);
+    border-radius: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(163, 163, 163);
+}
+
+/*
+effects of the menus and the see more
+*/
+
+li:hover {
+    background-color: rgb(138, 43, 226);
+}
+
+body h1 {
+    text-align: center;
+    margin: 25px;
+}
+
+/*
+Style Card
+*/
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 325px;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 10px;
+    margin: 20px 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+.cardInfo {
+    padding: 10px;
+}
+
+.cardInfo h2 {
+    margin-top: 90;
+    font-size: 21px;
+}
+
+.cardInfo li {
+    font-size: 16px;
+    line-height: 1.5;
+}
