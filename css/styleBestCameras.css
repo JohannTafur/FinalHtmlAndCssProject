@@ -1,24 +1,30 @@
+/*
+General styles
+*/
+
 * {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
 }
 
 body {
-
     background-color: rgb(0, 0, 0);
 }
 
-p, h2,
+h1,
+h2,
+p, li,
 a:hover {
     color: white;
+}
+
+header{
+    border-bottom: solid 1px rgb(163, 163, 163);;
 }
 
 /*
 Start menu styles
 */
-nav {
-    border-bottom: 1px solid rgb(163, 163, 163);
-}
 
 nav ul {
     text-align: center;
@@ -30,7 +36,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
     padding: 15px;
     border: solid 1px rgb(163, 163, 163);
     border-radius: 5px;
@@ -43,10 +49,58 @@ nav ul li a {
 }
 
 /*
-effects menus and input
+effects of the menus and the see more
 */
 
-li:hover,
-input[type="submit"]:hover {
+li:hover {
     background-color: rgb(138, 43, 226);
+}
+
+
+
+body h1{
+    text-align: center;
+    margin: 25px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*
+Style Card
+*/
+
+.contentCard {
+    display: flex;
+    clear: left;
+    justify-content: space-between;
+}
+
+.card {
+    width: 325px;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 10px;
+    margin: 20px 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+.cardInfo {
+    padding: 10px;
+}
+
+.cardInfo h2 {
+    margin-top: 90;
+    font-size: 21px;
+}
+
+.cardInfo li {
+    font-size: 16px;
+    line-height: 1.5;
 }
