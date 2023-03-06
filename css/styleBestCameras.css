@@ -13,13 +13,13 @@ body {
 
 h1,
 h2,
-p, li,
+li,
 a:hover {
     color: white;
 }
 
-header{
-    border-bottom: solid 1px rgb(163, 163, 163);;
+header {
+    border-bottom: solid 1px rgb(163, 163, 163);
 }
 
 /*
@@ -56,27 +56,19 @@ li:hover {
     background-color: rgb(138, 43, 226);
 }
 
-
-
-body h1{
+body h1 {
     text-align: center;
     margin: 25px;
-}
-
-section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 /*
 Style Card
 */
 
-.contentCard {
+section {
     display: flex;
-    clear: left;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .card {
