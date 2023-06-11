@@ -1,29 +1,39 @@
-deben tener 4 páginas:
-Pagina principal:
-    menú de navegación local (un menú que permita moverse hacia cada una de las secciones de la página principal).
-    Deben utilizar todos los elementos de html que hemos visto hasta el día de hoy.
-    La página principal debe tener por lo menos 5 secciones, un parrafo, una imagen y una lista en cada sección.
-    Almenos un video.
-Página about me:
-    página básica de contacto, nombre, email (con link que permita crear un email cuando se clickea),
-    imagen de github e imagen de linkedin con el link a su perfil de la respectiva plataforma.
-    Imágen propia.
-    Un parrafo describiendo sus habilidades y destrezas.
-Página de contacto:
-    página con un form que permita llenar los datos personales de sus usuarios
-    input para email
-    Input para telefono
-    Input para nombre
-    Input para país
-    Input para ciudad
-    Input que permita seleccionar múltiples opciones (por qué nos contactas?)
-    Input de text area con observaciones
-Página de contenido adicional:
-    En esta pagina pueden agregar tanto contenido como quieran.
-    Todas las páginas deben tener un menú horizontal que permita navegar entre las 4 páginas.
-Requerimientos no funcionales:
-    Tener un folder html
-    Tener un folder css
-    en el root de su carpeta tener un index.html que es su pagina principal
-    folder de imagenes
-    folder de videos
+should have 4 pages:
+
+Homepage:
+
+     local navigation menu (a menu that allows you to move to each of the sections of the main page).
+     They should use all the html elements we've seen so far.
+     The main page must have at least 5 sections, a paragraph, an image and a list in each section.
+     At least one video.
+    
+Page about me:
+
+     basic contact page, name, email (with a link that allows you to create an email when clicked),
+     github image and linkedin image with the link to your profile of the respective platform.
+     Own image.
+     A paragraph describing your skills and abilities.
+    
+Contact page:
+
+     page with a form that allows you to fill in the personal data of your users
+     input for email
+     input for telephone
+     input for name
+     Input for country
+     input for city
+     Input that allows multiple options to be selected (why are you contacting us?)
+     Text area input with remarks
+    
+Additional content page:
+
+     On this page you can add as much content as you want.
+     All pages must have a horizontal menu that allows navigation between the 4 pages.
+    
+Non-functional requirements:
+
+     Have a html folder
+     Have a css folder
+     in the root of your folder have an index.html which is your main page
+     image folder
+     video folder
